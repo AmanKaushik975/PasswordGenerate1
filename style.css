@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(233, 231, 231);
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(41, 40, 40);
+    text-shadow: 5px 3px 10px;
+}
+form{
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(166, 164, 164);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw;
+    background-color: rgb(248, 246, 246);
+}
+/* Style for the label */
+
+label{
+    color:rgb(75, 75, 235)
+}
+
+label[for="lengthInput"] {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+input[type ="number"]{
+    font-size: 1.3rem;
+    border-color: rgb(175, 177, 180);
+    padding: 10px;
+    color:rgb(41, 40, 40);
+    margin-top:10px ;
+    border-radius:10px;
+    width: 10vw;
+}
+
+h2{
+    color: rgba(7, 243, 7, 0.774);
+}
+
+#checkboxes > label{
+    font-size: 1.2rem;
+    margin-left: 30px;
+    font-style: italic;
+}
+button[type = "submit"]{
+    margin-top: 30px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(13, 236, 13);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    /* margin-left: 25vw; */
+    margin-bottom: 10px;
+}
+
+#answer{
+    font-weight: bold;
+    color:rgba(201, 0, 54, 0.771);
+    font-size: 2rem;
+
+}
